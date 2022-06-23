@@ -1,0 +1,224 @@
+body{
+    background-color: black;
+}
+
+
+@media  screen and (max-width: 1624px){
+    .encabezado{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        z-index: 10;
+        align-items: center;
+        background: black;
+        flex-direction: row;
+    }
+    .logon{
+        display: none;
+    }
+    
+    .submenu1{
+        display: flex;
+        flex-direction: row;
+        gap: 2%;
+        color: white;
+        align-items: center;
+        margin-left: 2%;
+        
+    }
+    
+
+    .imagensubmenu{
+        width:  8%;
+    }
+    .submenu2{
+        display: flex;
+        flex-direction: row;
+        gap: 2%;
+        color: white;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 2%;
+    }
+    
+    .cuerpo{
+        background-image: url(https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfOB1Pn9jmMwLxGnHk37k_WNaXASraPGzD3Vl1PzmwmXmarYqNmd3aCGEVbmcsJoeI2At177ypbPd8NJMhP0ZbHOJxNounA6hooP.webp?r=901);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 5%;
+        padding-left: 2%;
+        padding-right: 2%;   
+    }
+    .imagenbanner{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -10;
+    }
+    .cintabanner{
+        color: white;
+        margin-bottom: 0;
+    }
+    .cintabanner_cinta{
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    
+    .cinta_img:hover{
+        transform: scale(1.5);
+    }
+    .cinta_img::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .infobanner{
+        width: 30%;
+        height: 30%;
+        color: white;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .boton{
+        cursor: pointer;
+        color: #fff;
+        background-color: rgba(51, 51, 51, 0.5);
+        border-radius: 0.2vw;
+    }
+    
+    .boton:hover{
+        transform: scale(1.2);
+        color: #000;
+        background-color: #e6e6e6;
+    }
+    .titulo_pelicula{
+        font-size: 4rem;
+        font-weight: 900;
+    }
+    .titulo_tipopelicula{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .resto_peliculas{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+}
+
+@media  screen and (max-width: 500px){
+    .encabezado{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        z-index: 10;
+        align-items: center;
+        background: black;
+    }
+    .logon{
+        display:flex;
+    }
+    
+    .submenu1{
+        display: none;
+        
+    }
+    .imagensubmenu1{
+        width:  15%;
+    }
+    .imagensubmenu{
+        width:  8%;
+    }
+    .submenu2{
+        display: flex;
+        flex-direction: row;
+        gap: 2%;
+        color: white;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 2%;
+    }
+    
+    .cuerpo{
+        background-image: url(https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfOB1Pn9jmMwLxGnHk37k_WNaXASraPGzD3Vl1PzmwmXmarYqNmd3aCGEVbmcsJoeI2At177ypbPd8NJMhP0ZbHOJxNounA6hooP.webp?r=901);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 5%;
+        padding-left: 2%;
+        padding-right: 2%;   
+    }
+    .imagenbanner{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -10;
+    }
+    .cintabanner{
+        color: white;
+        margin-bottom: 0;
+    }
+    .cintabanner_cinta{
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    
+    .cinta_img:hover{
+        transform: scale(1.5);
+    }
+    .cinta_img::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .infobanner{
+        width: 50%;
+        height: 20%;
+        color: white;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .boton{
+        cursor: pointer;
+        color: #fff;
+        background-color: rgba(51, 51, 51, 0.5);
+        border-radius: 0.2vw;
+    }
+    
+    .boton:hover{
+        transform: scale(1.2);
+        color: #000;
+        background-color: #e6e6e6;
+    }
+    .titulo_pelicula{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .titulo_tipopelicula{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .resto_peliculas{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+
+}
+
+
